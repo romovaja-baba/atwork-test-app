@@ -1,0 +1,37 @@
+$color-06: #FDFDFD;   
+$color-05: #F4F4F4; 
+$color-04: #DADADA;
+$color-03: #9C9C9C; 
+$color-02: #595959;
+$color-01: #161616;
+$accent:   #22A0BC;
+
+$bg:             $color-05;
+$bg-card:        $color-06;
+$bg-input:       $color-06;
+$bg-input-hover: $color-05;
+$border:         $color-04;
+$border-focus:   $accent;
+
+$accent-dim:     rgba(34, 160, 188, 0.10);
+$accent-hover:   #1b8ca6;
+
+$text-primary:   $color-01;
+$text-secondary: $color-02;
+$text-muted:     $color-03;
+
+$danger:         #D94F4F;
+$danger-dim:     rgba(217, 79, 79, 0.10);
+$success:        #2BA57A;
+$success-dim:    rgba(43, 165, 122, 0.10);
+
+$font-display: 'Syne', sans-serif;
+$font-body:    'DM Sans', sans-serif;
+
+$radius-sm:  8px;
+$radius-md:  12px;
+$radius-lg:  16px;
+$radius-pill: 100px;
+
+$transition:      0.18s ease;
+$transition-slow: 0.3s ease;

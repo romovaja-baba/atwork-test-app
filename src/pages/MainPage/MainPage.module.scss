@@ -1,0 +1,72 @@
+.page {
+  flex: 1;
+  padding: 36px 0 72px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: $text-primary;
+  letter-spacing: -0.2px;
+}
+
+.sectionDivider {
+  border: none;
+  border-top: 1px solid $border;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  overflow: visible;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 580px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.empty {
+  padding: 24px;
+  border: 1px dashed $border;
+  border-radius: $radius-lg;
+  text-align: center;
+  color: $text-muted;
+  font-size: 14px;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  color: $danger;
+  font-size: 15px;
+  text-align: center;
+}
+
